@@ -57,7 +57,7 @@ def get_weather(latitude, longitude):
         print(f"  Скорость ветра: {wind_speed}{wind_unit}")
 
     except requests.exceptions.RequestException as e:
-        print(f"Ошибкdfdfа при запросе gghgпогоды: {e}")
+        print(f"Ошибкdffа при запросе gghgпогоды: {e}")
     except KeyError as e:
         print(f"Ошибка при пasнге данных: Отсутствует ключ {e}")
     except Exception as e:
